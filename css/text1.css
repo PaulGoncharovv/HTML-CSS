@@ -1,0 +1,99 @@
+.test {
+  height: 50vh;
+  background-image: url(../images/background.jpg);
+  background-position:top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  
+}
+
+.heads {
+  content: none;
+	width: 100%;
+  position: absolute;
+  top: 0;
+	left: 0;
+  margin-top: -150px;
+}
+
+@font-face{
+	font-family: kashima; 
+	src: url(../fonts/kashima-rus-by-cop.ttf);
+}
+
+h1 {
+  font-size: 400%;
+  color: #fe6900;
+  font-family: kashima, Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 250px;
+  text-align: center;
+  text-shadow: rgb(255, 255, 255) 1px 1px;
+}
+
+h3 {
+  font-size: 150%;
+  color: #fe6900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-shadow:white 1px 1px;
+}
+body{
+  height: 200vh;
+  cursor: url(../images/cursor.png), url(../images/cursor2.cur), default;
+}
+
+.zag2{
+  display: flex;
+  font-size: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: black 1px 2px;
+  color:#fe6900;
+  margin: 0% 10% 0% 10%;
+  padding: 1%;
+  overflow-wrap:break-word;
+}
+.div1 {
+  display:flex;
+  box-align: center;
+  font-size: 100%;
+  font-family:'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0% 10% 0% 10%;
+  flex-direction: column;
+
+}
+p{
+  text-indent: 30px;
+  overflow-wrap:break-word;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+    border: 1px solid blue;
+    padding: 10px;
+    width: 96%;	
+    height: auto;
+    margin: 5px;
+    border-radius: 20px;
+    }
+
+footer{
+      background-image: url(../images/footerback.jpg);
+      background-position:  bottom;
+      height: 90vh;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      align-items: center;
+    }
+
+.footerform{
+  display: flex;
+	align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.footer_p{
+  font-size: 16pt;
+  font-family:'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}	

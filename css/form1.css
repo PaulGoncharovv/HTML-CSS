@@ -1,0 +1,13 @@
+.dusya {
+	border: 1px solid gray;
+	margin: 0 0 10px;
+	width: 100%;
+	padding: 20px 10px 15px 40px;
+	border-radius: 20px;
+	cursor: url(../images/fire.png), url(../images/fire.cur), default;
+}
+.dusya:focus{
+	border: 1px solid darkorange;
+	outline: none;
+	box-shadow: 0 0 10px darkorange;
+}
